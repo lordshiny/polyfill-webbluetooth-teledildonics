@@ -34,7 +34,7 @@
             console.log('Closed, clean:', event.wasClean);
         }
 
-        websocketClosed_(event) {
+        websocketError_(event) {
             console.error('Websocket error:', event);
         }
 
